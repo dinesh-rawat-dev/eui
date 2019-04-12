@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
-  title = 'ng-hello-world-app';
+  pageHeader = 'Hello Angular';
+  name: string = "Dinesh";
+  imagePath: string = "/1200px-Google_2015_logo.svg.png";
+  isDisabled: boolean;
 }

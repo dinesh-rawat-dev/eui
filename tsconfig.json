@@ -17,6 +17,34 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "shared-components": [
+        "dist/shared-components",
+        "dist/shared-components"
+      ],
+      "shared-components/*": [
+        "dist/shared-components/*",
+        "dist/shared-components/*"
+      ],
+      "shared": [
+        "dist/shared"
+      ],
+      "shared/*": [
+        "dist/shared/*"
+      ],
+      "eui": [
+        "dist/eui"
+      ],
+      "eui/*": [
+        "dist/eui/*"
+      ],
+      "@evon/ui": [
+        "dist/evon/ui"
+      ],
+      "@evon/ui/*": [
+        "dist/evon/ui/*"
+      ]
+    }
   }
 }
